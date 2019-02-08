@@ -9,7 +9,7 @@ except ImportError:
         raise # Django's fine, something else is wrong.
 
 
-VERSION = (0, 1)
+VERSION = (1, 0)
 
 def version_string():
     return '.'.join(str(component) for component in VERSION)
