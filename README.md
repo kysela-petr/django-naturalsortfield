@@ -10,7 +10,7 @@ from naturalsortfield import NaturalSortField
 
 class MyModel(models.Model):
     title = models.CharField(max_length=255)
-    title_sort = NaturalSortField()
+    title_sort = NaturalSortField('title')
 ```
 
 ```python
